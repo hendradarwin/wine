@@ -37,7 +37,7 @@
 
 /* #define USE_STATS */
 
-#if defined(_MSC_VER) && _WIN64
+#if defined(_MSC_VER) && defined(_WIN64)
 #define long long long // MSVC
 #endif
 
